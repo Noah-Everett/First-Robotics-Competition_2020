@@ -1,0 +1,116 @@
+package frc.robot.constants;
+
+import com.revrobotics.EncoderType;
+import com.revrobotics.CANSparkMaxLowLevel.MotorType;
+
+public final class Constants {
+  //Joysticks
+  public static final int jsLEFTDRIVER = 1; //Left driver
+  public static final int jsRIGHTDRIVER = 2; //Right driver
+  public static final int jsBUTTONCONTROLLER = 0; //Button controller (Big/Black Cock)
+    //Joystick Axises (Static)
+    public static final int axisX = 0; //L-R
+    public static final int axisY = 1; //F-B
+    public static final int axisZ = 2; //Rotation
+    public static final int axisSLIDER = 3; //Slider
+    //Joystick buttons (JSB)
+      //Color wheel buttons
+      public static final int jsbCOLORWHEELACTIVATION = 8; //Pressed to do all color wheel functions
+      public static final int jsbCOLORWHEELMOTOR = 7; //Pressed to activate color wheel motor
+      //Intake buttons
+      public static final int jsbCOMBINE = 1;
+      public static final int jsbINTAKE = 5;
+      //Shooter buttons
+      public static final int jsbSHOOTERADJUST = 2;
+      public static final int jsbSHOOT = 6;
+      public static final int jsbRUNSHOOTER = 7;
+  //Motors
+    //Drive train
+      //Left motors
+      public static final int pDRIVELEFTSPARKMAX = 4; //Left wheels sparkmax
+      public static final MotorType DRIVELEFTSPARKMAXTYPE = MotorType.kBrushed; //left drive train sparkmax motor type
+      public static final int pDRIVELEFTSPARK = 9; //Left wheels spark
+      //Right motors
+      public static final int pDRIVERIGHTSPARKMAX = 3; //Right wheels sparkmax
+      public static final MotorType DRIVERIGHTSPARKMAXTYPE = MotorType.kBrushed; //right drive train sparkmax motor type
+      public static final int pDRIVERIGHTSPARK = 0; //Right wheels spark
+    //Control panel
+    public static final int pCONTROLPANNELSPARK = 2; //Color pannel motor
+    //Shooter
+    public static final int pSHOOTERSPARKMAX = 1; //Shooter motor
+    public static final MotorType SHOOTERSPARKMAXTYPE = MotorType.kBrushed; //Spark max shooter wheel motor type
+    public static final int pSHOOTERXSERVO = 4; //Horizontal adjustment servo
+    public static final int pSHOOTERYSERVO = 5; //Vertical adjustment servo
+    public static final int pLIMELIGHTSERVO = 3; // 8
+    //Intake
+    public static final int pCOMBINESIDESPARK = 6;
+    public static final int pCOMBINEFRONTSPARK = 7;
+    public static final int pINTAKESPARKMAX = 2;
+    public static final MotorType INTAKESPARKMAXTYPE = MotorType.kBrushed;
+  //Pneumatics
+    //Combine
+    public static final int pCOMBINELEFTDOUBLESOLENOIDONE = 4;
+    public static final int pCOMBINELEFTDOUBLESOLENOIDTWO = 5;
+    public static final int pCOMBINERIGHTDOUBLESOLENOIDONE = 6;
+    public static final int pCOMBINERIGHTDOUBLESOLENOIDTWO = 7;
+  //Sensors
+    //Gyro
+    public static final int GYRODEGREES = 360; //# of degrees gyro measures
+    //Encoders
+      //Drive train
+      public static final EncoderType DRIVELEFTENCODERTYPE = EncoderType.kQuadrature; //Left drive train encoder type (lets motor move and get values)
+      public static final int DRIVELEFTENCODERNUMBEROFUPDATESPERROTATION = 4096; //Number of times the encoder updates per revolution
+      public static final EncoderType DRIVERIGHTENCODERTYPE = EncoderType.kQuadrature; //Right drive train encoder type (lets motor move and get values)
+      public static final int DRIVERIGHTENCODERNUMBEROFUPDATESPERROTATION = 4096; //Number of times the encoder updates per revolution
+      //Shooter
+      public static final EncoderType SHOOTERENCODERTYPE = EncoderType.kQuadrature; //Shooter wheel encoder type (lets motor move and get values)
+      public static final int SHOOTERENCODERNUMBEROFREVOLUTIONSPERROTATION = 4096; //Number of times the encoder updates per revolution
+    //Color sensor
+    public static final int pCOLORSENSOR = 0; //This # means nothing
+    //LimeLight
+    public static final double PIPELINEPOWERPORT_STANDARD = 0;
+    public static final double PIPELINEPOWERPORT_TWO = 1;
+    public static final double PIPELINEPOWERPORT_THREE = 2;
+    public static final double PIPELINELOADINGBAY = 3;
+    public static final double PIPELINEPOWERCELL = 4;
+    public static final double PIPELINESTANDBY = 5;
+    //Limit switch
+    public static final int pINTAKELIMITSWITCH = 0;
+  //Physical constants
+    //PID
+    //Color wheel
+    public static final int NUMBEROFROTATIONSPERCOLOR = 7; //Number of times calabrationColor is sensed before calabration is done
+    public static final double COLORWHEELMOTORSPEED = -1; //Speed of the control wheel motor
+    public static final double Kp_SLIDERCONTROLWHEELROTATION = 0.6;
+    //Bot
+      public static final double MOTORMOVEMENTPERCENTTHRESHOLD = 0.05;
+      public static final double HIGHTOFLIMELIGHT = 20.25;
+      public static final double ANGLEOFLIMELIGHT = 30;
+    //Shooter
+    public static final double SHOOTERSPEEDUPTIME = 0.7;
+    public static final double SHOOTERWHEELSPEED = 0.65;
+    public static final double SHOOTINGDISTANCE = 72; //number of in. from target to shoot from 
+    //Power port
+    public static final double HIGHTOFPOWERPORT = 68; //98.25
+    public static final double DISTANCEFROMPOWERPORTWITHFULLPOWERONSHOOTERWHEEL = 96; //in. from power port when speeds of shooter wheel change
+    //Intake
+    public static final double INTAKERUNTIME = 0.6; //Seconds intake will run for when ball is detected
+    public static final double INTAKEMOTORSPEED = -0.3; //Speed that the intake motor will run at
+    //Autonomous
+    public static final double AUTONOMOUSWAITTIME = 5; //Number of seconds bot will wait after auto starts
+    public static final double AUTONOMOUSTIMETOSHOOT  = 7; //Number of seconds bot will shoot for
+    public static final double AUTONOMOUSDRIVETIME = 2.9; //Number of seconds bot will move for
+  //Other
+    //Drive train
+    public static final double DRIVETRAINWHEELSPEEDSADJUSTMENTVALUE = 0.0001;
+    //Autonomous
+      //Maxes
+      public static final double AUTONOMOUSMAXDRIVESPEED = 1.01; //0-> 1 % speed
+      public static final double AUTONOMOUSMAXTURNRATE = 1.01; //0-> 1 % speed
+      //Conversions
+      public static final double METERSPERSECONDTOPERCENTMOTORSPEED = 1; //(1/3) - dont move 1 and let 3 = m/s at 100% motor use
+      public static final double DEGREESPERSECONDTOPERCENTMOTORSPEED = 1; //(1/3) - dont move 1 and let 3 = degrees/s at 100% motor use
+    //Combine
+    public static final double COMBINEMOTORSPEEDS = 1;
+    //Vision
+}

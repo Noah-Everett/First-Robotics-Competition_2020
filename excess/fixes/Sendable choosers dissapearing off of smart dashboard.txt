@@ -1,0 +1,5 @@
+If sendable choosers disapear off smartdashboard,
+close smart dashboard and then comment all sendable choosers
+out of code and upload code.
+Then open smart dashboard, uncomment out 
+all sendable choosers and reupload code to robot.

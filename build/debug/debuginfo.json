@@ -1,0 +1,79 @@
+[
+  {
+    "artifact": "frcJava (in project 10 - PostDeluthCarRide 3-3-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "10 - PostDeluthCarRide 3-3-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 11 - PostDeluth 3-9-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "11 - PostDeluth 3-9-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 3 - PostLimeLight 2-15-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "3 - PostLimeLight 2-15-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 4 - PostLimeLight 2-15-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "4 - PostLimeLight 2-15-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 5 - MidAuto 2-23-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "5 - MidAuto 2-23-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 6 - MidAuto 2-27-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "6 - MidAuto 2-27-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 7 - VisionShooting 2-29-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "7 - VisionShooting 2-29-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 8 - PostHolocost 3-2-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "8 - PostHolocost 3-2-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 9 - DeluthCarRide 3-3-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "9 - DeluthCarRide 3-3-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project 9 - PostCar 3-3-20)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "9 - PostCar 3-3-20",
+    "language": "java"
+  },
+  {
+    "artifact": "frcJava (in project FG 2-1-2020)",
+    "target": "roborio",
+    "debugfile": "frcJava_roborio.debugconfig",
+    "project": "FG 2-1-2020",
+    "language": "java"
+  }
+]

@@ -1,0 +1,11 @@
+[
+  {
+    "name": "3 - PostLimeLight 2-15-20 (in project 3 - PostLimeLight 2-15-20)",
+    "file": "C:\\Users\\tech\\Documents\\GrabCAD\\2020 Robot\\Codes\\3 - PostLimeLight 2-15-20\\build\\libs\\3 - PostLimeLight 2-15-20.jar",
+    "extensions": [
+      "C:\\Users\\tech\\Documents\\GrabCAD\\2020 Robot\\Codes\\3 - PostLimeLight 2-15-20\\build\\tmp\\expandedArchives\\halsim_gui-2020.1.2-windowsx86-64.zip_0ded91afab576f356c80ba4c4e7b8310\\windows\\x86-64\\shared\\halsim_gui.dll"
+    ],
+    "librarydir": "C:\\Users\\tech\\Documents\\GrabCAD\\2020 Robot\\Codes\\3 - PostLimeLight 2-15-20\\build\\tmp\\jniExtractDir",
+    "mainclass": "frc.robot.Main"
+  }
+]

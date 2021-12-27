@@ -1,0 +1,6 @@
+to do list
+    1) when i doubt, coment it out
+    3) movenemt with angles
+        -switch statment
+    4)autonomous
+    5)ramping speed for shooter
